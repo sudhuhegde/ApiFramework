@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">3 suites, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Pets_api_Regression" class="navigator-link">
+              <span class="suite-name border-failed">Pets api Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Pets_api_Regression" class="navigator-link ">
+                    <span>petsTestsRegression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Pets_api_Regression" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Pets_api_Regression" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Pets_api_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Pets_api_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Pets_api_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Pets_api_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Pets_api_Regression" class="hide-methods failed suite-Pets_api_Regression"> (hide)</a> <!-- hide-methods failed suite-Pets_api_Regression -->
+                      <a href="#" panel-name="suite-Pets_api_Regression" class="show-methods failed suite-Pets_api_Regression"> (show)</a> <!-- show-methods failed suite-Pets_api_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Pets_api_Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Pets_api_Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Pets_api_Regression" class="hide-methods passed suite-Pets_api_Regression"> (hide)</a> <!-- hide-methods passed suite-Pets_api_Regression -->
+                      <a href="#" panel-name="suite-Pets_api_Regression" class="show-methods passed suite-Pets_api_Regression"> (show)</a> <!-- show-methods passed suite-Pets_api_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Pets_api_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="createPetsTest(11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">createPetsTest(11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(3, pending_status, 2, pending, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(3, pending_status, 2, pending, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(6, available_status, 1, empty, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(6, available_status, 1, empty, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(4, invalid_status, 1, invalid, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(4, invalid_status, 1, invalid, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(2, available_status, 1, available, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(2, available_status, 1, available, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(5, available_status, 1, null, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(5, available_status, 1, null, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Pets_api_Regression" title="com.sample.api.tests.PetsTests" class="method navigator-link" hash-for-method="getPetsByStatusTest(1, sold_status, 2, sold, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">getPetsByStatusTest(1, sold_status, 2, sold, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Pets_api_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-users_api_Regression" class="navigator-link">
+              <span class="suite-name border-failed">users api Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-users_api_Regression" class="navigator-link ">
+                    <span>usersTestsRegression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-users_api_Regression" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-users_api_Regression" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-users_api_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-users_api_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-users_api_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-users_api_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 5 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-users_api_Regression" class="hide-methods failed suite-users_api_Regression"> (hide)</a> <!-- hide-methods failed suite-users_api_Regression -->
+                      <a href="#" panel-name="suite-users_api_Regression" class="show-methods failed suite-users_api_Regression"> (show)</a> <!-- show-methods failed suite-users_api_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-users_api_Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(6, Null, 0, ALL_VALID, 400, , org.testng.TestRunner@1ad9e1ea)">createUsersTest(6, Null, 0, ALL_VALID, 400, , org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(5, OneValid&amp;OneMissing_username, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)">createUsersTest(5, OneValid&OneMissing_username, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(4, OneValid&amp;OneMissing_email, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)">createUsersTest(4, OneValid&OneMissing_email, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(2, Missing_id, 1, ALL_VALID, 400, None, org.testng.TestRunner@1ad9e1ea)">createUsersTest(2, Missing_id, 1, ALL_VALID, 400, None, org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="updateUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@6914683e)">updateUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@6914683e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-users_api_Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-users_api_Regression" class="hide-methods passed suite-users_api_Regression"> (hide)</a> <!-- hide-methods passed suite-users_api_Regression -->
+                      <a href="#" panel-name="suite-users_api_Regression" class="show-methods passed suite-users_api_Regression"> (show)</a> <!-- show-methods passed suite-users_api_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-users_api_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(3, ValidUser, 3, ALL_VALID, 200, , org.testng.TestRunner@1ad9e1ea)">createUsersTest(3, ValidUser, 3, ALL_VALID, 200, , org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="createUsersTest(1, ValidUser, 1, ALL_VALID, 200, None, org.testng.TestRunner@1ad9e1ea)">createUsersTest(1, ValidUser, 1, ALL_VALID, 200, None, org.testng.TestRunner@1ad9e1ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="getUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@4642b9ab)">getUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@4642b9ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="getUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)">getUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="getUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)">getUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="updateUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)">updateUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-users_api_Regression" title="com.sample.api.tests.UsersTests" class="method navigator-link" hash-for-method="updateUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)">updateUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-users_api_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Pets_api_Regression" class="panel Pets_api_Regression">
+          <div class="suite-Pets_api_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.api.tests.PetsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(9,Missing_tags,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                  <div class="stack-trace">java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=null, status=Available)] but found [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=[], status=Available)]
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(6,missing_photoUrls,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                  <div class="stack-trace">java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=null, tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)] but found [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=[], tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)]
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pets_api_Regression-class-failed -->
+          <div class="suite-Pets_api_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.api.tests.PetsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(3,null_id,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(8,Missing_category_id,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(7,empty_photoUrls,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(1,ValidPet,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(2,Missing_id,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(4,null_status,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(10,Missing_tags_id,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(5,missing_status,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(12,pending_status,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPetsTest(11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)">
+                  </a> <!-- createPetsTest(11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469) -->
+                  <span class="method-name">createPetsTest</span>
+                  <span class="parameters">(11,available_status,ALL_VALID,200,,org.testng.TestRunner@176c5469)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(3, pending_status, 2, pending, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(3, pending_status, 2, pending, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(3,pending_status,2,pending,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(6, available_status, 1, empty, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(6, available_status, 1, empty, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(6,available_status,1,empty,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(4, invalid_status, 1, invalid, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(4, invalid_status, 1, invalid, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(4,invalid_status,1,invalid,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(2, available_status, 1, available, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(2, available_status, 1, available, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(2,available_status,1,available,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(5, available_status, 1, null, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(5, available_status, 1, null, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(5,available_status,1,null,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPetsByStatusTest(1, sold_status, 2, sold, ALL_VALID, 200, , org.testng.TestRunner@621b2650)">
+                  </a> <!-- getPetsByStatusTest(1, sold_status, 2, sold, ALL_VALID, 200, , org.testng.TestRunner@621b2650) -->
+                  <span class="method-name">getPetsByStatusTest</span>
+                  <span class="parameters">(1,sold_status,2,sold,ALL_VALID,200,,org.testng.TestRunner@621b2650)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pets_api_Regression-class-passed -->
+        </div> <!-- panel Pets_api_Regression -->
+        <div panel-name="suite-all_suites" class="panel all_suites">
+        </div> <!-- panel all_suites -->
+        <div panel-name="suite-users_api_Regression" class="panel users_api_Regression">
+          <div class="suite-users_api_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.api.tests.UsersTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(6, Null, 0, ALL_VALID, 400, , org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(6, Null, 0, ALL_VALID, 400, , org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(6,Null,0,ALL_VALID,400,,org.testng.TestRunner@1ad9e1ea)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response code not matching for create user expected [400] but found [405]
+	at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+	at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(5, OneValid&amp;OneMissing_username, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(5, OneValid&OneMissing_username, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(5,OneValid&OneMissing_username,2,ALL_VALID,207,,org.testng.TestRunner@1ad9e1ea)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response code not matching for create user expected [207] but found [200]
+	at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+	at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(4, OneValid&amp;OneMissing_email, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(4, OneValid&OneMissing_email, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(4,OneValid&OneMissing_email,2,ALL_VALID,207,,org.testng.TestRunner@1ad9e1ea)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response code not matching for create user expected [207] but found [200]
+	at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+	at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(2, Missing_id, 1, ALL_VALID, 400, None, org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(2, Missing_id, 1, ALL_VALID, 400, None, org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(2,Missing_id,1,ALL_VALID,400,None,org.testng.TestRunner@1ad9e1ea)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response code not matching for create user expected [400] but found [200]
+	at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+	at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@6914683e)">
+                  </a> <!-- updateUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@6914683e) -->
+                  <span class="method-name">updateUsersTest</span>
+                  <span class="parameters">(2,NotExistingUser,1,ALL_VALID,404,,org.testng.TestRunner@6914683e)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response code not matching for get api  expected [404] but found [200]
+	at com.sample.api.assertions.UsersAPIAssertions.assertUpdateUserAPIResponse(UsersAPIAssertions.java:39)
+	at com.sample.api.tests.UsersTests.updateUsersTest(UsersTests.java:161)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-users_api_Regression-class-failed -->
+          <div class="suite-users_api_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.api.tests.UsersTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(3, ValidUser, 3, ALL_VALID, 200, , org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(3, ValidUser, 3, ALL_VALID, 200, , org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(3,ValidUser,3,ALL_VALID,200,,org.testng.TestRunner@1ad9e1ea)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUsersTest(1, ValidUser, 1, ALL_VALID, 200, None, org.testng.TestRunner@1ad9e1ea)">
+                  </a> <!-- createUsersTest(1, ValidUser, 1, ALL_VALID, 200, None, org.testng.TestRunner@1ad9e1ea) -->
+                  <span class="method-name">createUsersTest</span>
+                  <span class="parameters">(1,ValidUser,1,ALL_VALID,200,None,org.testng.TestRunner@1ad9e1ea)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@4642b9ab)">
+                  </a> <!-- getUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@4642b9ab) -->
+                  <span class="method-name">getUsersTest</span>
+                  <span class="parameters">(2,NotExistingUser,1,ALL_VALID,404,,org.testng.TestRunner@4642b9ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)">
+                  </a> <!-- getUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab) -->
+                  <span class="method-name">getUsersTest</span>
+                  <span class="parameters">(1,ValidUser,1,ALL_VALID,200,,org.testng.TestRunner@4642b9ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)">
+                  </a> <!-- getUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab) -->
+                  <span class="method-name">getUsersTest</span>
+                  <span class="parameters">(2,Missing_lastName,1,ALL_VALID,200,,org.testng.TestRunner@4642b9ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)">
+                  </a> <!-- updateUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e) -->
+                  <span class="method-name">updateUsersTest</span>
+                  <span class="parameters">(2,Missing_lastName,1,ALL_VALID,200,,org.testng.TestRunner@6914683e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)">
+                  </a> <!-- updateUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e) -->
+                  <span class="method-name">updateUsersTest</span>
+                  <span class="parameters">(1,ValidUser,1,ALL_VALID,200,,org.testng.TestRunner@6914683e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-users_api_Regression-class-passed -->
+        </div> <!-- panel users_api_Regression -->
+        <div panel-name="test-xml-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/hsudarshan/WORK/ApiFramework/src/test/resources/TestNG/petsTestsRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; name=&quot;Pets api Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;test.env&quot; value=&quot;QA&quot;/&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;createPets&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.api.tests.PetsTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createPetsTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sample.api.tests.PetsTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- createPets --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;getPetsByStatus&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.api.tests.PetsTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getPetsByStatusTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sample.api.tests.PetsTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- getPetsByStatus --&gt;
+&lt;/suite&gt; &lt;!-- Pets api Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/hsudarshan/WORK/ApiFramework/src/test/resources/TestNG/apiRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;all suites&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;petsTestsRegression.xml&quot;/&gt;
+    &lt;suite-file path=&quot;usersTestsRegression.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- all suites --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/hsudarshan/WORK/ApiFramework/src/test/resources/TestNG/usersTestsRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; data-provider-thread-count=&quot;30&quot; name=&quot;users api Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;test.env&quot; value=&quot;QA&quot;/&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;createUsers&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.api.tests.UsersTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createUsersTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sample.api.tests.UsersTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- createUsers --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;getUsers&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.api.tests.UsersTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;getUsersTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sample.api.tests.UsersTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- getUsers --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;updateUsers&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.api.tests.UsersTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;updateUsersTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sample.api.tests.UsersTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- updateUsers --&gt;
+&lt;/suite&gt; &lt;!-- users api Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Pets api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">createPets (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">getPetsByStatus (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for all suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for users api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">createUsers (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">getUsers (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">updateUsers (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Pets api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">createPets</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createPetsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">getPetsByStatus</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getPetsByStatusTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for all suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for users api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">createUsers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUsersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">getUsers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getUsersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">updateUsers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateUsersTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Pets api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Pets_api_Regression');
+function tableData_Pets_api_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getPetsByStatusTest')
+data.setCell(0, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(0, 3, 4143);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getPetsByStatusTest')
+data.setCell(1, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(1, 3, 4143);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getPetsByStatusTest')
+data.setCell(2, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(2, 3, 3189);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getPetsByStatusTest')
+data.setCell(3, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(3, 3, 2701);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getPetsByStatusTest')
+data.setCell(4, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(4, 3, 2660);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getPetsByStatusTest')
+data.setCell(5, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(5, 3, 2657);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createPetsTest')
+data.setCell(6, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(6, 3, 2577);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createPetsTest')
+data.setCell(7, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(7, 3, 2577);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createPetsTest')
+data.setCell(8, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(8, 3, 2574);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createPetsTest')
+data.setCell(9, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(9, 3, 2573);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createPetsTest')
+data.setCell(10, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(10, 3, 2573);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createPetsTest')
+data.setCell(11, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(11, 3, 2573);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createPetsTest')
+data.setCell(12, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(12, 3, 2573);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createPetsTest')
+data.setCell(13, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(13, 3, 2573);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createPetsTest')
+data.setCell(14, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(14, 3, 2573);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createPetsTest')
+data.setCell(15, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(15, 3, 2572);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'createPetsTest')
+data.setCell(16, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(16, 3, 1388);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createPetsTest')
+data.setCell(17, 2, 'com.sample.api.tests.PetsTests')
+data.setCell(17, 3, 1388);
+window.suiteTableData['Pets_api_Regression']= { tableData: data, tableDiv: 'times-div-Pets_api_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Pets_api_Regression">
+              </div> <!-- times-div-Pets_api_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for all suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_all_suites');
+function tableData_all_suites() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['all_suites']= { tableData: data, tableDiv: 'times-div-all_suites'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-all_suites">
+              </div> <!-- times-div-all_suites -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for users api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_users_api_Regression');
+function tableData_users_api_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUsersTest')
+data.setCell(0, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(0, 3, 5274);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'updateUsersTest')
+data.setCell(1, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(1, 3, 3977);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'updateUsersTest')
+data.setCell(2, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(2, 3, 3976);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUsersTest')
+data.setCell(3, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(3, 3, 3050);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUsersTest')
+data.setCell(4, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(4, 3, 2664);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getUsersTest')
+data.setCell(5, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(5, 3, 2663);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createUsersTest')
+data.setCell(6, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(6, 3, 1701);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createUsersTest')
+data.setCell(7, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(7, 3, 1371);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateUsersTest')
+data.setCell(8, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(8, 3, 1362);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createUsersTest')
+data.setCell(9, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(9, 3, 1360);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getUsersTest')
+data.setCell(10, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(10, 3, 1346);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createUsersTest')
+data.setCell(11, 2, 'com.sample.api.tests.UsersTests')
+data.setCell(11, 3, 1328);
+window.suiteTableData['users_api_Regression']= { tableData: data, tableDiv: 'times-div-users_api_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-users_api_Regression">
+              </div> <!-- times-div-users_api_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Pets api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for all suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for users api Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sample.api.tests.PetsTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createPetsTest</span>
+                <br/>
+                <span class="ignored-method-name">updatePetsTest</span>
+                <br/>
+                <span class="ignored-method-name">updatePetsTest</span>
+                <br/>
+                <span class="ignored-method-name">getPetsByStatusTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sample.api.tests.UsersTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createUsersTest</span>
+                <br/>
+                <span class="ignored-method-name">getUsersTest</span>
+                <br/>
+                <span class="ignored-method-name">getUsersTest</span>
+                <br/>
+                <span class="ignored-method-name">updateUsersTest</span>
+                <br/>
+                <span class="ignored-method-name">updateUsersTest</span>
+                <br/>
+                <span class="ignored-method-name">createUsersTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Pets_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.api.tests.PetsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initSuite(QA, org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPetsTest(9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPetsTest(6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">2627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPetsTest(12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469)</span>
+                <span class="method-start">2627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=FAILURE method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=FAILURE method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">2628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">4015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java...)</span>
+                <span class="method-start">4015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4039 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(3, pending_status, 2, pending, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(6, available_status, 1, empty, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(2, available_status, 1, available, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(5, available_status, 1, null, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(4, invalid_status, 1, invalid, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPetsByStatusTest(1, sold_status, 2, sold, ALL_VALID, 200, , org.testng.TestRunner@621b2650)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">6736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">6739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">6780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">7268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">8223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.S...)</span>
+                <span class="method-start">8223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite(QA)</span>
+                <span class="method-start">8230 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-all_suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-users_api_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.api.tests.UsersTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initSuite(QA, org.testng.TestRunner@6914683e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@4642b9ab)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@6914683e)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createUsersTest(3, ValidUser, 3, ALL_VALID, 200, , org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUsersTest(2, Missing_id, 1, ALL_VALID, 400, None, org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUsersTest(1, ValidUser, 1, ALL_VALID, 200, None, org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@4642b9ab)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@4642b9ab)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateUsersTest(2, NotExistingUser, 1, ALL_VALID, 404, , org.testng.TestRunner@6914683e)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUsersTest(1, ValidUser, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUsersTest(6, Null, 0, ALL_VALID, 400, , org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUsersTest(5, OneValid&OneMissing_username, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUsersTest(4, OneValid&OneMissing_email, 2, ALL_VALID, 207, , org.testng.TestRunner@1ad9e1ea)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUsersTest(2, Missing_lastName, 1, ALL_VALID, 200, , org.testng.TestRunner@6914683e)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">1430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.la...)</span>
+                <span class="method-start">1446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">1461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=updateUsersTest status=FAILURE method=UsersTests.updateUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">1463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">1471 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">1803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.la...)</span>
+                <span class="method-start">2763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.la...)</span>
+                <span class="method-start">2764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=SUCCESS method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">3150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=updateUsersTest status=SUCCESS method=UsersTests.updateUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">4078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=updateUsersTest status=SUCCESS method=UsersTests.updateUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">4078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachMethod([TestResult name=createUsersTest status=SUCCESS method=UsersTests.createUsersTest(java.lang.String,j...)</span>
+                <span class="method-start">5375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite(QA)</span>
+                <span class="method-start">5386 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

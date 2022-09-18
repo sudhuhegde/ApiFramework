@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  createPets</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>createPets</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 18 17:48:51 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4012 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 9, Missing_tags, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td><div><pre>java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=null, status=Available)] but found [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=[], status=Available)]
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace63848007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace63848007'><pre>java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=null, status=Available)] but found [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=[], status=Available)]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 6, missing_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td><div><pre>java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=null, tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)] but found [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=[], tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)]
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace772165785", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace772165785'><pre>java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=null, tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)] but found [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=[], tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+	at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 3, null_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 8, Missing_category_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 7, empty_photoUrls, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 1, ValidPet, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 2, Missing_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 4, null_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 10, Missing_tags_id, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 5, missing_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>2</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 12, pending_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>1</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+<tr>
+<td title='com.sample.api.tests.PetsTests.createPetsTest()'><b>createPetsTest</b><br>Test class: com.sample.api.tests.PetsTests<br>Parameters: 11, available_status, ALL_VALID, 200, , org.testng.TestRunner@176c5469</td>
+<td></td>
+<td>1</td>
+<td>com.sample.api.tests.PetsTests@51549490</td></tr>
+</table><p>
+</body>
+</html>

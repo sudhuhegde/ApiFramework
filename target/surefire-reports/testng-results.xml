@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="40" passed="23" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-18T17:48:51 IST" name="Pets api Regression" finished-at="2022-09-18T17:48:59 IST" duration-ms="8218">
+    <groups>
+      <group name="createPets">
+        <method signature="PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" name="createPetsTest" class="com.sample.api.tests.PetsTests"/>
+      </group> <!-- createPets -->
+      <group name="getPetsByStatus">
+        <method signature="PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" name="getPetsByStatusTest" class="com.sample.api.tests.PetsTests"/>
+      </group> <!-- getPetsByStatus -->
+    </groups>
+    <test started-at="2022-09-18T17:48:51 IST" name="createPets" finished-at="2022-09-18T17:48:55 IST" duration-ms="4012">
+      <class name="com.sample.api.tests.PetsTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="setUp" finished-at="2022-09-18T17:48:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_category_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[empty_photoUrls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidPet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_tags_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[missing_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2577" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_tags]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[created and actual pet are not matching expected [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=null, status=Available)] but found [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=[], status=Available)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=null, status=Available)] but found [Pet(id=2187, category=PetsCategory(id=53045, name=hamster), name=Jeanette Akenja Nearing, photoUrls=[www.darin-olson.info, www.mack-jast.name], tags=[], status=Available)]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2577" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[missing_photoUrls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[created and actual pet are not matching expected [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=null, tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)] but found [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=[], tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: created and actual pet are not matching expected [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=null, tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)] but found [Pet(id=73699, category=PetsCategory(id=66448, name=trout), name=Oren Jellow, photoUrls=[], tags=[PetTag(id=89742, name=Blake Simonis)], status=Available)]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.PetsAPIAssertions.assertCreatePetResponse(PetsAPIAssertions.java:38)
+at com.sample.api.tests.PetsTests.createPetsTest(PetsTests.java:152)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:51 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:54 IST" duration-ms="2572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:55 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pending_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method signature="createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="createPetsTest" data-provider="createPets" finished-at="2022-09-18T17:48:55 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[available_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@176c5469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPetsTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=FAILURE method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:54 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=FAILURE method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:55 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@51549490]" started-at="2022-09-18T17:48:55 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPetsTest status=SUCCESS method=PetsTests.createPetsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@51549490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+      </class> <!-- com.sample.api.tests.PetsTests -->
+    </test> <!-- createPets -->
+    <test started-at="2022-09-18T17:48:55 IST" name="getPetsByStatus" finished-at="2022-09-18T17:48:59 IST" duration-ms="4185">
+      <class name="com.sample.api.tests.PetsTests">
+        <test-method is-config="true" signature="initSuite(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:51 IST" name="initSuite" finished-at="2022-09-18T17:48:51 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="setUp" finished-at="2022-09-18T17:48:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:59 IST" duration-ms="4143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pending_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:58 IST" duration-ms="2701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[available_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:58 IST" duration-ms="2660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:58 IST" duration-ms="3189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[available_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:58 IST" duration-ms="2657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[available_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method signature="getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:55 IST" name="getPetsByStatusTest" data-provider="getPetsByStatus" finished-at="2022-09-18T17:48:59 IST" duration-ms="4143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sold_status]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@621b2650]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetsByStatusTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:58 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:58 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:58 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:58 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:59 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:59 IST" name="afterEachMethod" finished-at="2022-09-18T17:48:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetsByStatusTest status=SUCCESS method=PetsTests.getPetsByStatusTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String)[pri:0, instance:com.sample.api.tests.PetsTests@21ba0741]" started-at="2022-09-18T17:48:59 IST" name="afterSuite" finished-at="2022-09-18T17:48:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sample.api.tests.PetsTests -->
+    </test> <!-- getPetsByStatus -->
+  </suite> <!-- Pets api Regression -->
+  <suite started-at="2022-09-18T17:49:05 IST" name="all suites" finished-at="2022-09-18T17:49:05 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- all suites -->
+  <suite started-at="2022-09-18T17:48:59 IST" name="users api Regression" finished-at="2022-09-18T17:49:05 IST" duration-ms="5373">
+    <groups>
+      <group name="getUsers">
+        <method signature="UsersTests.getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" name="getUsersTest" class="com.sample.api.tests.UsersTests"/>
+      </group> <!-- getUsers -->
+      <group name="updateUsers">
+        <method signature="UsersTests.updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" name="updateUsersTest" class="com.sample.api.tests.UsersTests"/>
+      </group> <!-- updateUsers -->
+      <group name="createUsers">
+        <method signature="UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" name="createUsersTest" class="com.sample.api.tests.UsersTests"/>
+      </group> <!-- createUsers -->
+    </groups>
+    <test started-at="2022-09-18T17:48:59 IST" name="getUsers" finished-at="2022-09-18T17:49:02 IST" duration-ms="2761">
+      <class name="com.sample.api.tests.UsersTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:48:59 IST" name="setUp" finished-at="2022-09-18T17:48:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4642b9ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:00 IST" name="getUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NotExistingUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@4642b9ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:00 IST" name="getUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:02 IST" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@4642b9ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:00 IST" name="getUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:02 IST" duration-ms="2663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_lastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@4642b9ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:02 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc]" started-at="2022-09-18T17:49:02 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUsersTest status=SUCCESS method=UsersTests.getUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@132e0cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+      </class> <!-- com.sample.api.tests.UsersTests -->
+    </test> <!-- getUsers -->
+    <test started-at="2022-09-18T17:48:59 IST" name="updateUsers" finished-at="2022-09-18T17:49:04 IST" duration-ms="4076">
+      <class name="com.sample.api.tests.UsersTests">
+        <test-method is-config="true" signature="initSuite(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:48:59 IST" name="initSuite" finished-at="2022-09-18T17:48:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6914683e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:48:59 IST" name="setUp" finished-at="2022-09-18T17:48:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6914683e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:00 IST" name="updateUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:04 IST" duration-ms="3977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@6914683e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUsersTest -->
+        <test-method signature="updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:00 IST" name="updateUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1362" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NotExistingUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@6914683e]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[response code not matching for get api  expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: response code not matching for get api  expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.UsersAPIAssertions.assertUpdateUserAPIResponse(UsersAPIAssertions.java:39)
+at com.sample.api.tests.UsersTests.updateUsersTest(UsersTests.java:161)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUsersTest -->
+        <test-method signature="updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:00 IST" name="updateUsersTest" data-provider="getUsers" finished-at="2022-09-18T17:49:04 IST" duration-ms="3976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_lastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@6914683e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUsersTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUsersTest status=FAILURE method=UsersTests.updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:04 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUsersTest status=SUCCESS method=UsersTests.updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:04 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUsersTest status=SUCCESS method=UsersTests.updateUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String)[pri:0, instance:com.sample.api.tests.UsersTests@6cc558c6]" started-at="2022-09-18T17:49:05 IST" name="afterSuite" finished-at="2022-09-18T17:49:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sample.api.tests.UsersTests -->
+    </test> <!-- updateUsers -->
+    <test started-at="2022-09-18T17:48:59 IST" name="createUsers" finished-at="2022-09-18T17:49:05 IST" duration-ms="5373">
+      <class name="com.sample.api.tests.UsersTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:48:59 IST" name="setUp" finished-at="2022-09-18T17:48:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:05 IST" duration-ms="5274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:03 IST" duration-ms="3050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1371" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Missing_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[response code not matching for create user expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: response code not matching for create user expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1328" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Null]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[response code not matching for create user expected [400] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: response code not matching for create user expected [400] but found [405]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1360" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneValid&OneMissing_username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[207]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[response code not matching for create user expected [207] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: response code not matching for create user expected [207] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method signature="createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:00 IST" name="createUsersTest" data-provider="createUsers" finished-at="2022-09-18T17:49:01 IST" duration-ms="1701" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneValid&OneMissing_email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ALL_VALID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[207]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ad9e1ea]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[response code not matching for create user expected [207] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: response code not matching for create user expected [207] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at com.sample.api.assertions.UsersAPIAssertions.assertCreateApiResponse(UsersAPIAssertions.java:14)
+at com.sample.api.tests.UsersTests.createUsersTest(UsersTests.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:01 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=FAILURE method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:03 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=SUCCESS method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132]" started-at="2022-09-18T17:49:05 IST" name="afterEachMethod" finished-at="2022-09-18T17:49:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsersTest status=SUCCESS method=UsersTests.createUsersTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sample.api.tests.UsersTests@5b6ec132] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethod -->
+      </class> <!-- com.sample.api.tests.UsersTests -->
+    </test> <!-- createUsers -->
+  </suite> <!-- users api Regression -->
+</testng-results>

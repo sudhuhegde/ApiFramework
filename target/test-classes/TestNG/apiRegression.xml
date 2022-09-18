@@ -1,0 +1,6 @@
+<suite name="all suites">
+    <suite-files>
+        <suite-file path="petsTestsRegression.xml"></suite-file>
+        <suite-file path="usersTestsRegression.xml"></suite-file>
+    </suite-files>
+</suite>

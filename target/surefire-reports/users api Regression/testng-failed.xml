@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" data-provider-thread-count="30" name="Failed suite [users api Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="test.env" value="QA"/>
+  <test thread-count="4" parallel="tests" name="updateUsers(failed)" verbose="0">
+    <classes>
+      <class name="com.sample.api.tests.UsersTests">
+        <methods>
+          <include name="afterEachMethod"/>
+          <include name="initSuite"/>
+          <include name="setUp"/>
+          <include name="updateUsersTest" invocation-numbers="1"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sample.api.tests.UsersTests -->
+    </classes>
+  </test> <!-- updateUsers(failed) -->
+  <test thread-count="4" parallel="tests" name="createUsers(failed)" verbose="0">
+    <classes>
+      <class name="com.sample.api.tests.UsersTests">
+        <methods>
+          <include name="afterEachMethod"/>
+          <include name="initSuite"/>
+          <include name="setUp"/>
+          <include name="createUsersTest" invocation-numbers="1 3 4 5"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sample.api.tests.UsersTests -->
+    </classes>
+  </test> <!-- createUsers(failed) -->
+</suite> <!-- Failed suite [users api Regression] -->
